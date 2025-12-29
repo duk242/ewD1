@@ -1,11 +1,22 @@
 This is a python app designed to talk to the Sennheiser ewD1 microphone receivers and display RF Signal, Battery and Audio levels for multiple receivers at once, without requiring the iOS only app.
 
+> [!NOTE]
+> This is mostly a proof of concept app - it was mostly vibe coded! It works for me - but has very little in the way of error correction or bug fixing!
+
 This repo also has all the information I've gathered on the receivers and protocol used.  The app itself is fairly barebones and is more a proof of concept, but the information here should help anyone wanting to build something better!
+
+# Features
+
+* Shows any number of ewD1 microphone receivers with the Name, RF Signal, Battery and a graph of the last 60sec of audio.
+* Debug window that will let you enter manual commands to send to the ewD1 receiver and read the output it sends back (useful if you're playing with the things in the [protocol reference](ewD1-Protocol-Reference.md) guide!)
 
 # Usage
 Requirements:  Should only need the normal stuff that's already installed with python, along with tkinter.
 
 Run with: `python3 ./ewD1.py`
+
+# Screenshots
+<img src="assets/ewD1-MainScreen.png" width="300px" height="" /><img src="assets/ewD1-SettingsScreen.png" width="300px" height="" /><img src="assets/ewD1-DebugScreen.png" width="300px" height="" />
 
 # Communication with the ewD1 Receivers
 They use standard ethernet cable and networking. DHCP is on by default, static IP's can be set on the display of the unit.
