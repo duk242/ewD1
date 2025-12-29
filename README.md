@@ -11,7 +11,7 @@ Run with: `python3 ./ewD1.py`
 They use standard ethernet cable and networking. DHCP is on by default, static IP's can be set on the display of the unit.
 They use UDP packets on port 45, sending plain text JSON messages which do mention the word "OSC" in there, but it's not a form of OSC I've encountered yet!
 
-See here for a more in depth guide for the different functions available.
+[See here for a more in depth guide for the different functions available.](ewD1-Protocol-Reference.md)
 # About the Sennheiser ewD1 Receivers
 The Sennheiser ew D1 (Evolution Wireless D1) is a digital wireless microphone system that operates in the 2.4 GHz frequency band (license-free worldwide). Released as a bridge between consumer ease-of-use and professional audio quality, it was designed for bands, live sound, and presenters who wanted "set and forget" operation without worrying about complex UHF frequency coordination.
 
